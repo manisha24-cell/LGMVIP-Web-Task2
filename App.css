@@ -1,0 +1,61 @@
+.App {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-header {
+  background-color: rgb(252, 143, 0);
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom:10px;
+  height:45px;
+  border-radius: 5px; 
+}
+.user-nav{
+  margin-right: 30px;
+  color:black;
+  font-size: 30px;
+}
+.user-btn{
+  width: 150px;
+  border-radius: 5px;
+  background-color:grey;
+  color:black;
+  border-style:solid;
+  cursor: pointer;
+  font-size: 20px;
+}
+.user-grid {                     
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 0.5fr));
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left:150px;
+  padding:5px;
+}
+.card {
+  border-style: groove;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  display:table;
+  background-color: bisque;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.loader {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+
